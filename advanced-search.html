@@ -18,17 +18,18 @@
 
 <body class = "scrollbar">
     <header class = "header">
-        <div class = "icon-area">
-            <img src="images/logo.png" id="logo" width="74" height="24">
+        <div class = "sub-header">
+            <div class = "icon-area">
+                <img src="images/logo.png" id="logo" width="74" height="24">
+            </div>
         </div>
-        
     </header>
     <div class = "appbar">
         <label style="margin-left:10px">Advanced Search</label>
     </div>
     <div class = "appbar-border"></div>
     <div class = "form-advanced">
-        <form action = "/search" id = "form-start" method = "GET" name = "f">
+        <form action = "https://www.google.com/search" id = "form-start" method = "GET" name = "f">
             <div class = "advanced-search-under">
                 <div class = "advanced-search-under1">
                     <div class = "advanced-search-under2">
@@ -58,9 +59,68 @@
                     </div>
                     <div class="caption-instruction">
                         <div class="form-heading">Type the important words:
-                            <span class="span-important-words">tri-colour rat terrier</span>
+                            <span class="span-important-words">six-legged albino elephant</span>
                         </div>
                     </div>
+                </div>
+                <div class = "advanced-search-under1">
+                    <div class="form-prompt">
+                        <div class="form-heading">
+                            <label for="inputbar2">this exact word or phrase:</label>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <div class="form-input1">
+                            <input class="inputbar" value="" autofocus="autofocus" id="inputbar2" name="as_q" type="text">
+                        </div>
+                    </div>
+                    <div class="caption-instruction">
+                        <div class="form-heading">Put exact words in quotes:
+                            <span class="span-important-words">"monitor lizard"</span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "advanced-search-under1">
+                    <div class="form-prompt">
+                        <div class="form-heading">
+                            <label for="inputbar3">any of these words:</label>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <div class="form-input1">
+                            <input class="inputbar" value="" autofocus="autofocus" id="inputbar3" name="as_q" type="text">
+                        </div>
+                    </div>
+                    <div class="caption-instruction">
+                        <div class="form-heading">Type OR between all the words you want:
+                            <span class="span-important-words">depression OR programming</span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "advanced-search-under1">
+                    <div class="form-prompt">
+                        <div class="form-heading">
+                            <label for="inputbar4">none of these words:</label>
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <div class="form-input1">
+                            <input class="inputbar" value="" autofocus="autofocus" id="inputbar4" name="as_q" type="text">
+                        </div>
+                    </div>
+                    <div class="caption-instruction">
+                        <div class="form-heading">Put a minus sign just before words that you don't want:
+                            <span class="span-important-words">-homework, -"Harry Maguire"</span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "advanced-search-under"></div>
+            </div>
+            <div class = "bottom-border"></div>
+            <div class = "advanced-search-under1">
+                <div class = "form-prompt"></div>
+                <div class="form-input" style="text-align:right"> <input id="adv-search-btn" name="asb" type="hidden" value="">
+                    <input class="submit-button submit-button-action submit-button1" style="-webkit-user-select:none;user-select:none;line-height:100%;height:30px;min-width:120px" value="Advanced Search" type="submit">
                 </div>
             </div>
         </form>

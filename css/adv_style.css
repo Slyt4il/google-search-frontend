@@ -66,8 +66,27 @@ td {
 /* Advanced search classes */
 /* Could move this to a new file. */
 
+#logo{
+    width: 6em;
+    position: sticky;
+    top: 17px;
+    left: 14px;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
 .appbar-border {
     border-bottom: 1px solid #ebebeb;
+}
+
+.bottom-border {
+    margin: 18px 0;
+    clear: both;
+    border-top: 1px solid #ebebeb;
 }
 
 .inputbar {
@@ -79,6 +98,14 @@ td {
     font-size: 13px;
     height: 25px;
     padding: 1px 8px;
+}
+
+.sub-header {
+    white-space: nowrap;
+    line-height: 58px;
+    font: 13px/27px Arial, sans-serif;
+    color: #000;
+    -webkit-user-select: none;
 }
 
 div.form-advanced {
@@ -176,4 +203,44 @@ div.form-input input[type="text"] {
 
 div.form-input1 {
     padding-right: 16px;
+}
+
+input.submit-button1 {
+    float: right;
+    margin: 10px 0;
+}
+
+input.submit-button1 {
+    padding: 0 12px;
+}
+
+.submit-button-action {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    background-image: -moz-linear-gradient(top, #4d90fe, #4787ed);
+    background-image: -ms-linear-gradient(top, #4d90fe, #4787ed);
+    background-image: -o-linear-gradient(top, #4d90fe, #4787ed);
+    background-image: linear-gradient(top, #4d90fe, #4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.submit-button {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
 }
