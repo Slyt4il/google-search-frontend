@@ -5,13 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>CSS sucks</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>google_clone</title>
+    <link rel="stylesheet" href="css/search_style.css">
+    <script src="https://use.fontawesome.com/2180418238.js"></script>
 </head>
-
 <body>
-    <h1> Very Big </h1>
-    <h5> smol </h5>
-    <script src="js/scripts.js"></script>
+    <nav>
+        <div class="container">
+            <div class="nav_c">
+                <ul class="menu">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Image</a></li>
+                    <li><i class="fa fa-th"></i></li>
+                    <li><a href="#" class="sign_in" style="color: #fff;">sign in</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="content">
+                <img src="images/googlelogo.png" alt="">
+                <div class="search">
+                    <form action="http://www.google.com/search" method="get">
+                        <div class="search_bar">
+                            <button type="submit"><i style="color: #9aa0a6;" class="fa fa-search" aria-hidden="true"></i></button>
+                            <input type="text" name="q">
+                            <a href="#"><i style="color: blue;" class="fa fa-microphone" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="button">
+                            <button type="submit" class="google_search">Google Search</button>
+                            <a href="https://www.google.com/doodles" class="lucky_button">I'm Feeling Lucky</a>
+                        </div>
+                    </form>
+                    <p>Google offered in : <a href="#">ภาษาไทย</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+            <div class="footer_top">
+                <div class="container">
+                    <p>Thailand</p>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="footer_bottom_flex">
+                        <div class="footer_l">
+                            <ul>
+                                <li><a href="https://about.google/?utm_source=google-TH&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+                                <li><a href="https://ads.google.com/intl/en_th/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                                <li><a href="https://www.google.com/intl/th_th/business/">Business</a></li>
+                                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_r">
+                            <ul>
+                                <li><a href="https://policies.google.com/privacy?hl=en-TH&fg=1">Privacy</a></li>
+                                <li><a href="https://policies.google.com/terms?hl=en-TH&fg=1">Terms</a></li>
+                                <li><a href="https://www.google.com/preferences?hl=en-TH&fg=1">Settings</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
 </body>
 </html>
