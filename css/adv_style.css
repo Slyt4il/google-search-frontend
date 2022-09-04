@@ -244,3 +244,10 @@ input.submit-button1 {
     outline: 0;
     padding: 0 8px;
 }
+
+.submit-button:hover{
+    background: #387bea;
+    border-style: sold;
+    border-width: 1px;
+    border-color: black;
+}
