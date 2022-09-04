@@ -63,6 +63,7 @@ section {
     width: 500px;
     border: none;
     outline: none;
+    background: white;
 }
 
 .search_bar button{
@@ -135,4 +136,16 @@ footer{
 .footer_l ul li a, .footer_r ul li a{
     text-decoration: none;
     color: #70757a;
+}
+
+
+button:hover, a:hover, ul.menu li a:hover:not(.sign_in), search p a:hover,
+.footer_l ul li:hover, .footer_r ul li:hover, .search a:hover{
+    text-decoration: underline;
+}
+
+
+ul.menu li a.sign_in:hover {
+    background: #1b66c9;
+    box-shadow: 0 0 15px rgba(33,33,33,.2);
 }
